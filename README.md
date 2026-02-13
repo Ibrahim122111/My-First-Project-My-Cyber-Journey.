@@ -45,5 +45,6 @@ In my research, I have explored the use of Shodan filters to identify misconfigu
 has_screenshot:true: To visualize exposed interfaces.
 country:"NG" port:80: To identify open web servers within Nigeria.
 "authentication disabled": To audit devices with critical security bypasses.
+
 Note: All activities are conducted for educational and defensive research purposes only.
 
