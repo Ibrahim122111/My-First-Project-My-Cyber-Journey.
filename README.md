@@ -39,7 +39,7 @@ I am learning to use the Google Hacking Database (GHDB) to identify misconfigure
 - Understand **Common Vulnerabilities and Exposures (CVEs)** associated with IoT devices.
 - Develop professional reporting skills for **Vulnerability Assessment**.
 
-##Advanced Reconnaissance: Shodan Filters.
+# Advanced Reconnaissance: Shodan Filters.
 
 In my research, I have explored the use of Shodan filters to identify misconfigured assets globally and locally.
 has_screenshot:true: To visualize exposed interfaces.
