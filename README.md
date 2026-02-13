@@ -30,8 +30,13 @@ Using **ExifTool**, I bypassed standard file properties to retrieve 6-decimal pr
 
 I am learning to use the Google Hacking Database (GHDB) to identify misconfigured IoT devices and exposed web servers. This highlights the importance of proper credential management and network security to prevent unauthorized data exposure.
 
-## Reconnaissance & OSINT Skills
+## Reconnaissance & OSINT Skills.
 - **Google Dorking**: Familiar with using advanced search operators (Dorks) via the Google Hacking Database (GHDB).
 - **Automation Tools**: Experienced in using **DorkGPT** to generate precise queries for identifying misconfigured servers and exposed IoT devices.
 - **Ethical Analysis**: Understanding the security risks of exposed webcams and databases to help organizations improve their network security.
+## Future Research Goals
+- Master **Shodan** for global device reconnaissance.
+- Understand **Common Vulnerabilities and Exposures (CVEs)** associated with IoT devices.
+- Develop professional reporting skills for **Vulnerability Assessment**.
+
 
