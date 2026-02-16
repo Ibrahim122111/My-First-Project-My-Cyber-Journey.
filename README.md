@@ -48,3 +48,8 @@ country:"NG" port:80: To identify open web servers within Nigeria.
 
 Note: All activities are conducted for educational and defensive research purposes only.
 
+
+## Research Methodology & OSINT Insights
+- **Multi-Engine Search**: Utilizing Bing for IP-based reconnaissance and Google for advanced syntax dorking.
+- **Geospatial Forensics**: Leveraging Google Earth Pro's historical imagery to perform temporal-spatial analysis on extracted coordinates.
+- **Asset Discovery**: Understanding the limitations of free-tier Shodan vs. professional API access for large-scale vulnerability scanning.
