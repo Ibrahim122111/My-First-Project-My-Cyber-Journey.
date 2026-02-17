@@ -55,3 +55,8 @@ Note: All activities are conducted for educational and defensive research purpos
 - **Asset Discovery**: Understanding the limitations of free-tier Shodan vs. professional API access for large-scale vulnerability scanning.
 
 - **Google Earth Pro**: Utilized for precise location verification and street-level visualization of forensic coordinates.
+
+## Advanced OSINT Techniques
+- **Geospatial Verification**: Using Google Earth Pro to map extracted coordinates (16.977852, 7.981417) to a physical terrain in Agadez, Niger.
+- **Reverse Image Search**: Conducted verification using Yandex and Google Lens to ensure image authenticity and trace its digital origin.
+
