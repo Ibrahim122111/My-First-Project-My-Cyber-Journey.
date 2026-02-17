@@ -53,3 +53,5 @@ Note: All activities are conducted for educational and defensive research purpos
 - **Multi-Engine Search**: Utilizing Bing for IP-based reconnaissance and Google for advanced syntax dorking.
 - **Geospatial Forensics**: Leveraging Google Earth Pro's historical imagery to perform temporal-spatial analysis on extracted coordinates.
 - **Asset Discovery**: Understanding the limitations of free-tier Shodan vs. professional API access for large-scale vulnerability scanning.
+
+- **Google Earth Pro**: Utilized for precise location verification and street-level visualization of forensic coordinates.
