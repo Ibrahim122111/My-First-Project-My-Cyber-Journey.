@@ -60,3 +60,7 @@ Note: All activities are conducted for educational and defensive research purpos
 - **Geospatial Verification**: Using Google Earth Pro to map extracted coordinates (16.977852, 7.981417) to a physical terrain in Agadez, Niger.
 - **Reverse Image Search**: Conducted verification using Yandex and Google Lens to ensure image authenticity and trace its digital origin.
 
+## Specialized OSINT Resources
+- **Frameworks**: Following the IntelTechniques methodology (Michael Bazzell) for advanced people-search and digital footprints.
+- **Privacy Hardening**: Implementing privacy techniques to secure personal data while conducting investigative research.
+
