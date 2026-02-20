@@ -70,4 +70,10 @@ Note: All activities are conducted for educational and defensive research purpos
 - **Network Discovery**: Identifying the role of RFC 1918 private address spaces (e.g., 10.0.0.0/8) and understanding NAT (Network Address Translation) for public internet access.
 - **Network Interfaces**: Understanding the role of multiple interfaces (eth0, wlan0, tun0) during VPN-based penetration testing.
 - **NAT Security**: Evaluating how Private IP structures (10.0.0.0/8) provide a basic layer of security against unsolicited inbound traffic.
+- **ISP Identification**: Understanding how IP Geolocation reveals ISP data (e.g., SpaceX/Starlink) and its significance in digital investigations.
+- **Address Resolution**: Differentiating between local gateway IPs (192.168.x.x) and external-facing public IPs provided by ISPs.
+## External Perimeter Auditing
+- **Public IP Analysis**: Identifying Starlink's IP range (e.g., 129.222.x.x) and performing external port auditing to assess network vulnerability.
+- **Firewall Testing**: Using tools like Nmap and online scanners to verify inbound traffic filtering on personal network gateways.
+
 
