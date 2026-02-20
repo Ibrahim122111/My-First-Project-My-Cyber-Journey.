@@ -63,4 +63,9 @@ Note: All activities are conducted for educational and defensive research purpos
 ## Specialized OSINT Resources
 - **Frameworks**: Following the IntelTechniques methodology (Michael Bazzell) for advanced people-search and digital footprints.
 - **Privacy Hardening**: Implementing privacy techniques to secure personal data while conducting investigative research.
+## Hybrid Cybersecurity Skills (Purple Teaming)
+- **Offensive (Red Team)**: Performing reconnaissance using Google Dorks, Shodan, and Sherlock to identify attack vectors.
+- **Defensive (Blue Team)**: Analyzing image metadata (EXIF) and network logs to investigate security incidents and track origins.
+- **Network Architecture**: Understanding the distinction between Public and Private IP addressing and the role of NAT (Network Address Translation) in home/enterprise networks.
+- **Network Discovery**: Identifying the role of RFC 1918 private address spaces (e.g., 10.0.0.0/8) and understanding NAT (Network Address Translation) for public internet access.
 
