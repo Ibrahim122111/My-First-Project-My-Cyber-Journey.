@@ -68,4 +68,6 @@ Note: All activities are conducted for educational and defensive research purpos
 - **Defensive (Blue Team)**: Analyzing image metadata (EXIF) and network logs to investigate security incidents and track origins.
 - **Network Architecture**: Understanding the distinction between Public and Private IP addressing and the role of NAT (Network Address Translation) in home/enterprise networks.
 - **Network Discovery**: Identifying the role of RFC 1918 private address spaces (e.g., 10.0.0.0/8) and understanding NAT (Network Address Translation) for public internet access.
+- **Network Interfaces**: Understanding the role of multiple interfaces (eth0, wlan0, tun0) during VPN-based penetration testing.
+- **NAT Security**: Evaluating how Private IP structures (10.0.0.0/8) provide a basic layer of security against unsolicited inbound traffic.
 
