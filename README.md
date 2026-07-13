@@ -77,4 +77,32 @@ Note: All activities are conducted for educational and defensive research purpos
 - **Public IP Analysis**: Identifying Starlink's IP range (e.g., 129.222.x.x) and performing external port auditing to assess network vulnerability.
 - **Firewall Testing**: Using tools like Nmap and online scanners to verify inbound traffic filtering on personal network gateways.
 
+- # Network Traffic Analysis: Voucher-Based Wi-Fi Network
+
+## Project Overview
+This analysis focused on investigating the traffic flow, protocol distribution, and security posture of a local, open Wi-Fi network running a captive portal (voucher system). The goal was to understand how client devices interact with the gateway and identify potential vectors for MAC spoofing or session hijacking.
+
+## Technical Methodology & Findings
+
+1. **Capture Environment & Transfer**
+   - Captured raw network traffic on-site.
+   - Saved the output as a `.pcapng` file and moved it into a Kali Linux environment for deep packet inspection using Wireshark.
+
+2. **Endpoint & OUI Resolution**
+   - Enabled MAC/Network Name Resolution within Wireshark's **Conversations** and **Endpoints** tabs to map Layer 2 and Layer 3 addresses to hardware vendors.
+   - Successfully identified the network gateway as a MikroTik device via the **Routerboard** OUI.
+   - Identified various connected client devices, including local workstations (**Pcsystem**) and mobile endpoints (e.g., **Infinix** devices).
+
+3. **Protocol Breakdown: UDP & DNS Dominance**
+   - Filtered traffic to find that **UDP** was the dominant transport layer protocol.
+   - A large portion of UDP traffic was tied to **DNS (Port 53)** queries as client devices resolved external domains for applications like TikTok and Instagram.
+   - The remaining bulk traffic utilized the **QUIC** protocol over UDP, indicating heavy video streaming across the network.
+
+4. **Payload Inspection & Encryption Realities**
+   - Analyzed packet payloads via Hex Dump and ASCII views.
+   - Validated that while metadata (DNS queries, MAC vendor IDs, and frame headers) is fully visible in plaintext on an open network, the actual application layer payloads remain heavily encrypted via modern TLS/QUIC standards, showing as randomized ciphertext.
+
+## Cybersecurity Takeaways
+Operating an unencrypted, open captive portal leaves the network vulnerable to passive DNS sniffing and rogue active attacks like MAC spoofing (where an unauthorized user clones an authenticated client's hardware address to bypass voucher limits). Monitoring the packet stream using Wireshark provides the necessary visibility to detect duplicate IP assignments and anomalous traffic spikes.
+
 
