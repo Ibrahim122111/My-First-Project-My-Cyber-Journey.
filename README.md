@@ -105,4 +105,25 @@ This analysis focused on investigating the traffic flow, protocol distribution, 
 ## Cybersecurity Takeaways
 Operating an unencrypted, open captive portal leaves the network vulnerable to passive DNS sniffing and rogue active attacks like MAC spoofing (where an unauthorized user clones an authenticated client's hardware address to bypass voucher limits). Monitoring the packet stream using Wireshark provides the necessary visibility to detect duplicate IP assignments and anomalous traffic spikes.
 
+Lab Notes: MikroTik Captive Portal & Network Security Analysis
+Objective
+To analyze the security posture of an open, voucher-based MikroTik Wi-Fi network using traffic analysis and port scanning tools.
+
+#Key Findings
+MAC-to-IP Binding: The router maps active sessions to the client's default MAC address. Changing to a randomized MAC address bypasses the session and triggers the captive portal again. Returning to the default MAC successfully restores the internet session without needing a new voucher (a potential vector for MAC spoofing).
+
+Hardened Firewall (Device Security):
+
+External scans via Shodan yielded zero results (active firewall/CGNAT protection).
+
+Local port scanning showed that administrative ports (like 8291 for Winbox, 80/443 for WebFig) are strictly filtered or closed to local users. The router itself is highly secured.
+
+Unencrypted Over-the-Air Traffic: While the router's configuration is locked down, the open nature of the Wi-Fi means client DNS queries and network traffic are transmitted unencrypted over the air, leaving users vulnerable to sniffing and Man-in-the-Middle (MITM) attacks.
+
+#Tools Used
+Wireshark (Packet analysis)
+
+Shodan (External OSINT reconnaissance)
+
+Advanced IP Scanner (Local port scanning)
 
