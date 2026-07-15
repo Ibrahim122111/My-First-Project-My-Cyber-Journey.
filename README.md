@@ -127,3 +127,9 @@ Shodan (External OSINT reconnaissance)
 
 Advanced IP Scanner (Local port scanning)
 
+### 🏆 Certifications & Badges
+
+*   **Introduction to Critical Infrastructure Protection (ICIP)** - *OPSWAT Academy* (July 2026)
+    *   **Credential ID:** `x7Q_UkS4sg`
+    *   **Topics Covered:** Securing critical infrastructure, OT/IT security, and defensive security frameworks.
+    *   [Verify Credential](https://learn.opswatacademy.com/certificate/x7Q_UkS4sg)
