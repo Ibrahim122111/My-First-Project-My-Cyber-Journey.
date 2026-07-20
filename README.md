@@ -133,3 +133,7 @@ Advanced IP Scanner (Local port scanning)
     *   **Credential ID:** `x7Q_UkS4sg`
     *   **Topics Covered:** Securing critical infrastructure, OT/IT security, and defensive security frameworks.
     *   [Verify Credential](https://learn.opswatacademy.com/certificate/x7Q_UkS4sg)
+
+*   **Google SecOps Certification** - *Google Cloud* (July 2026)
+    *   **Focus:** Security Operations Center (SOC) workflows, threat detection, and security analytics.
+*   **Next Milestone (In Progress):** Mastering SOAR (Security Orchestration, Automation, and Response) architecture and playbooks.
