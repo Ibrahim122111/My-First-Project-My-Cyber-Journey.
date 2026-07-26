@@ -140,3 +140,8 @@ Advanced IP Scanner (Local port scanning)
 
 * **Cisco Networking Academy Learn-A-Thon 2026 Achievement Award** — *Cisco* (March 2026)
   * Credential ID: `77b61ab8-52e2-473c-bda2-598758406cc8`
+ 
+  * * **Introduction to Critical Infrastructure Protection (ICIP)** — *OPSWAT Academy* (July 2026 – July 2027)
+  * Certificate ID: `x7Q_UkS4sg`
+  * CPE Credits: 0.50
+  * Verification Link: https://learn.opswatacademy.com/certificate/x7Q_UkS4sg
