@@ -137,3 +137,6 @@ Advanced IP Scanner (Local port scanning)
 *   **Google SecOps Certification** - *Google Cloud* (July 2026)
     *   **Focus:** Security Operations Center (SOC) workflows, threat detection, and security analytics.
 *   **Next Milestone (In Progress):** Mastering SOAR (Security Orchestration, Automation, and Response) architecture and playbooks.
+
+* **Cisco Networking Academy Learn-A-Thon 2026 Achievement Award** — *Cisco* (March 2026)
+  * Credential ID: `77b61ab8-52e2-473c-bda2-598758406cc8`
